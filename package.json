@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx gulp watching",
-    "build": "npx gulp build"
+    "build": "npx gulp build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "Semerenko Yuriy",
@@ -30,5 +31,7 @@
     "twbs-pagination": "^1.4.2",
     "wow.js": "^1.2.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  }
 }
