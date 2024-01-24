@@ -35,7 +35,7 @@ function images() {
         }),
       ]),
     )
-    .pipe(dest('dist/image'))
+    .pipe(dest('dist/images'))
 }
 
 function scripts() {
